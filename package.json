@@ -4,9 +4,9 @@
   "description": "Zeller-coding-test",
   "main": "index.js",
   "scripts": {
-    "build": "tsc checkout/index.ts",
-    "start": "tsc checkout/index.ts; node checkout/index.js",
-    "test": "tsc checkout/Tests/test.ts; node checkout/Tests/test.js",
+    "build": "tsc Checkout/index.ts",
+    "start": "tsc Checkout/index.ts; node Checkout/index.js",
+    "test": "tsc Checkout/Tests/test.ts; node Checkout/Tests/test.js",
     "start:dev": "node -r ts-node/register index.ts"
   },
   "author": "",
